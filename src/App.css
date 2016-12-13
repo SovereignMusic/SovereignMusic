@@ -1,0 +1,84 @@
+/*font-family: 'Lato', sans-serif;
+font-family: 'Fjalla One', sans-serif;*/
+
+
+.flex-container {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-flow: column wrap;
+	flex-flow: column wrap;
+}
+
+.flex-item {
+	-webkit-flex: 1 auto;
+	flex: 1 auto;
+}
+
+.App {
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: column wrap;
+  flex-flow: column wrap;
+  text-align: center;
+  background-color: #141311;
+}
+
+.body {
+  /*background-image: : url('/city.jpg');*/
+  -webkit-flex: 1 auto;
+  flex: 1 auto;
+  height: 24em;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.body2 {
+  -webkit-flex: 1 auto;
+  flex: 1 auto;
+  height: 24em;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header{
+  font-family: 'Kanit', sans-serif;
+  font-size: 5.75em;
+  background-color: #141311;
+  height: 3em;
+  padding: 20px;
+  color: #ffe179;
+}
+
+.App-intro {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.75em;
+  color: #fff;
+}
+
+.App-outro {
+font-family: 'Josefin Sans', sans-serif;
+  font-size: 1.5em;
+  /*border: 1px solid #ccc;*/
+  color: #fff;
+}
+
+.link {
+  color: #ffe179;
+  text-decoration: none;
+}
+
+.footer {
+  font-size: 0.75em;
+  margin: 0px 0px 3em 0px;
+  color: #fff;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
