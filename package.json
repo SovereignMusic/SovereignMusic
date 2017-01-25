@@ -1,8 +1,8 @@
 {
   "name": "sovMusic",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "http://SovereignMusic.github.io/home",
+  "private": false,
+  "homepage": "http://SovereignMusic.github.io",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "react-scripts": "0.8.4"
