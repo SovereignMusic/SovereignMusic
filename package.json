@@ -2,7 +2,7 @@
   "name": "sovMusicLLP",
   "version": "0.1.0",
   "private": false,
-  "homepage": "http://SovereignMusicllp.com",
+  "homepage": "http://SovereignMusic.github.io/test",
   "devDependencies": {
     "gh-pages": "^0.12.0",
     "react-scripts": "0.8.4"
