@@ -150,7 +150,7 @@ function build(previousSizeMap) {
     var appPackage  = require(paths.appPackageJson);
     var homepagePath = appPackage.homepage;
     var publicPath = config.output.publicPath;
-    if (homepagePath && homepagePath.indexOf('.github.io/') !== -1) {
+    if (homepagePath && homepagePath.indexOf('.github.io') !== -1) {
       // "homepage": "http://user.github.io/project"
       console.log('The project was built assuming it is hosted at ' + chalk.green(publicPath) + '.');
       console.log('You can control this with the ' + chalk.green('homepage') + ' field in your '  + chalk.cyan('package.json') + '.');
